@@ -5,7 +5,7 @@ browser.contextMenus.create({
 });
 
 const getSetting = async (key) => {
-  const fullKey = `${storageKey}-${key}`;
+  const fullKey = `plst-ext-${key}`;
   return ((await browser.storage.sync.get(fullKey)) ?? {})[fullKey];
 };
 
