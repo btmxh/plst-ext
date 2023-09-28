@@ -1,0 +1,10 @@
+{
+  "name": "plst-ext",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/firefox-webext-browser": "^111.0.2"
+  }
+}

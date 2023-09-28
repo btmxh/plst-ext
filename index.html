@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>plst-ext settings</title>
+  </head>
+  <body>
+    <main style="display: flex; flex-direction: column;">
+      <section>
+        <label for="url">API Endpoint URL</label>
+        <input type="text" name="url" id="url-input-bar" />
+      </section>
+      <section>
+        <label for="add-position">Add position</label>
+        <select name="add-position" id="add-position-chooser">
+          <option value="queue-next" selected>queue next</option>
+          <option value="add-to-end">add to end</option>
+        </select>
+      </section>
+      <p id="settings-json"></p>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>
